@@ -6,8 +6,6 @@ export const Form = ({ onAddLang }) => {
   const submitForm = (event) => {
     event.preventDefault();
     onAddLang(text);
-    console.log(text);
-    
   }
 
   return (

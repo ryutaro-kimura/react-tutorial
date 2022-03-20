@@ -1,16 +1,7 @@
 import { useEffect } from "react";
-
-
+import styledC from "styled-components";
 
 export const List = ({ langs }) => {
-    useEffect(() => {
-      console.log('List.js:useEffect');
-    
-      return () => {
-        console.log('List.js:unmount')
-      }
-    }, []);
-
     return(
         <div>
             {
